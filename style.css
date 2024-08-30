@@ -1,0 +1,1063 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    background: rebeccapurple;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 2.7rem;
+    color: #fff;
+    font-weight: 800;
+    background: linear-gradient(#9c0c18,#de07de);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    animation: 
+            typing 2s,
+            cursor .4s step-end infinite alternate;
+    box-shadow: 30px 25px 2px(rgba(30, 241, 19, 0.89));
+}
+
+@keyframes cursor {
+    100%{border-color: transparent;}
+}
+
+@keyframes typing {
+    from{width: 0;}
+}
+
+.calculator{
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background: rgba(6, 3, 5, 0.318);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.calculator form input{
+    width: 100px;
+    height: 60px;
+    outline: 0;
+    padding: 30px;
+    margin: 9px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(246, 15, 138, 0.89),2px 2px 5px rgba(241, 2, 173, 0.89);    
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+form .display input{
+    text-align: right;
+    font-size: 45px;
+    box-shadow: none;
+    flex: 1;
+}
+
+form input.equal{
+    width:220px;
+    color: rgb(251, 247, 250);
+    background: linear-gradient(#de07de,#91072efe);
+}
+
+form input.equal:hover{
+    width:220px;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(#f0ecf0,#f700fffe);
+}
+
+form input.mainbuttons{
+    color: rgb(251, 247, 250);
+    background: linear-gradient(#de07de,#91072efe);
+}
+
+
+form input.mainbuttons:hover{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(#f0ecf0,#f700fffe);
+}
+
+
+
+
+
+
+
+
+@media (max-width:271px) {
+    
+    
+.container{
+    width: 100%;
+    background: rebeccapurple;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 800;
+    background: linear-gradient(#9c0c18,#de07de);
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    animation: 
+            typing 2s,
+            cursor .4s step-end infinite alternate;
+    box-shadow: 30px 25px 2px(rgba(30, 241, 19, 0.89));
+}
+
+
+@keyframes cursor {
+    100%{border-color: transparent;}
+}
+
+@keyframes typing {
+    from{width: 0;}
+}
+
+.calculator{
+    display: flex;
+    width: 100%;
+    max-width: 220px;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background: rgba(6, 3, 5, 0.318);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.calculator form input{
+    width: 35px;
+    height: 38px;
+    outline: 0;
+    padding: 10px;
+    margin: 5px 3px;
+    margin-left: 18px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 9px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(246, 15, 138, 0.89),2px 2px 5px rgba(241, 2, 173, 0.89);    
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+form .display input{
+    text-align: right;
+    font-size: 35px;
+    box-shadow: none;
+    flex: 1;
+}
+
+form input.equal{
+    width:220px;
+    margin: 20px 10px;
+    color: rgb(251, 247, 250);
+    background: linear-gradient(#de07de,#91072efe);
+}
+
+form input.equal:hover{
+    width:220px;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(#f0ecf0,#f700fffe);
+}
+
+form input.mainbuttons{
+    color: rgb(251, 247, 250);
+    background: linear-gradient(#de07de,#91072efe);
+}
+
+
+form input.mainbuttons:hover{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(#f0ecf0,#f700fffe);
+}
+
+
+    
+    }
+        
+    @media (min-width:280px) {
+           
+.container{
+    width: 100%;
+    background: rebeccapurple;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 800;
+    background: linear-gradient(#9c0c18,#de07de);
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    animation: 
+            typing 2s,
+            cursor .4s step-end infinite alternate;
+    box-shadow: 30px 25px 2px(rgba(30, 241, 19, 0.89));
+}
+
+
+@keyframes cursor {
+    100%{border-color: transparent;}
+}
+
+@keyframes typing {
+    from{width: 0;}
+}
+
+.calculator{
+    display: flex;
+    width: 100%;
+    max-width: 220px;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background: rgba(6, 3, 5, 0.318);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.calculator form input{
+    width: 35px;
+    height: 38px;
+    outline: 0;
+    padding: 10px;
+    margin: 5px 3px;
+    margin-left: 18px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 9px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(246, 15, 138, 0.89),2px 2px 5px rgba(241, 2, 173, 0.89);    
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+form .display input{
+    text-align: right;
+    font-size: 35px;
+    box-shadow: none;
+    flex: 1;
+}
+
+form input.equal{
+    width:220px;
+    margin: 20px 10px;
+    color: rgb(251, 247, 250);
+    background: linear-gradient(#de07de,#91072efe);
+}
+
+form input.equal:hover{
+    width:220px;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(#f0ecf0,#f700fffe);
+}
+
+form input.mainbuttons{
+    color: rgb(251, 247, 250);
+    background: linear-gradient(#de07de,#91072efe);
+}
+
+
+form input.mainbuttons:hover{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(#f0ecf0,#f700fffe);
+}
+
+        }
+        
+    
+    
+    @media (min-width:291px) {
+        
+           
+.container{
+    width: 100%;
+    background: rebeccapurple;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 800;
+    background: linear-gradient(#9c0c18,#de07de);
+    width: 155px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    animation: 
+            typing 2s,
+            cursor .4s step-end infinite alternate;
+    box-shadow: 30px 25px 2px(rgba(30, 241, 19, 0.89));
+}
+
+@keyframes cursor {
+    100%{border-color: transparent;}
+}
+
+@keyframes typing {
+    from{width: 0;}
+}
+
+.calculator{
+    display: flex;
+    width: 100%;
+    max-width: 230px;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background: rgba(6, 3, 5, 0.318);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.calculator form input{
+    width: 36px;
+    height: 38px;
+    outline: 0;
+    padding: 5px;
+    margin: 5px 3px;
+    margin-left: 18px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 9px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(246, 15, 138, 0.89),2px 2px 5px rgba(241, 2, 173, 0.89);    
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+form .display input{
+    text-align: right;
+    font-size: 35px;
+    box-shadow: none;
+    flex: 1;
+}
+
+form input.equal{
+    width:220px;
+    margin: 20px 10px;
+    color: rgb(251, 247, 250);
+    background: linear-gradient(#de07de,#91072efe);
+}
+
+form input.equal:hover{
+    width:220px;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(#f0ecf0,#f700fffe);
+}
+
+form input.mainbuttons{
+    color: rgb(251, 247, 250);
+    background: linear-gradient(#de07de,#91072efe);
+}
+
+
+form input.mainbuttons:hover{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(#f0ecf0,#f700fffe);
+}
+
+        
+        }
+        
+        
+    @media (min-width:351px) {
+        .container{
+            width: 100%;
+            background: rebeccapurple;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .heading{
+            margin-bottom: 20px;
+            font-style: italic;
+            font-size: 1.5rem;
+            color: #fff;
+            font-weight: 800;
+            background: linear-gradient(#9c0c18,#de07de);
+            width: 155px;
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+            border-radius: 10px;
+            animation: 
+            typing 2s,
+            cursor .4s step-end infinite alternate;
+            box-shadow: 30px 25px 2px(rgba(30, 241, 19, 0.89));
+        }
+        
+        @keyframes cursor {
+            100%{border-color: transparent;}
+        }
+
+        @keyframes typing {
+            from{width: 0;}
+        }
+        
+        .calculator{
+            display: flex;
+            width: 100%;
+            max-width: 270px;
+            justify-content: center;
+            align-items: center;
+            min-height: 500px;
+            background: rgba(6, 3, 5, 0.318);
+            padding: 10px;
+            border-radius: 20px;
+        }
+        
+        .calculator form input{
+            width: 45px;
+            height: 47px;
+            outline: 0;
+            padding: 7px;
+            margin: 5px 3px;
+            margin-left: 18px;
+            font-size: 18px;
+            font-weight: 500;
+            border: none;
+            border-radius: 9px;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            box-shadow: 1px 1px 10px rgba(246, 15, 138, 0.89),2px 2px 5px rgba(241, 2, 173, 0.89);    
+        }
+        
+        form .display{
+            display: flex;
+            justify-content: flex-end;
+            margin: 10px 0;
+        }
+        
+        form .display input{
+            text-align: right;
+            font-size: 40px;
+            box-shadow: none;
+            flex: 1;
+        }
+        
+        form input.equal{
+            width:260px;
+            margin: 20px 10px;
+            color: rgb(251, 247, 250);
+            background: linear-gradient(#de07de,#91072efe);
+        }
+        
+        form input.equal:hover{
+            width:260px;
+            color: rgb(0, 0, 0);
+            background: linear-gradient(#f0ecf0,#f700fffe);
+        }
+        
+        form input.mainbuttons{
+            color: rgb(251, 247, 250);
+            background: linear-gradient(#de07de,#91072efe);
+        }
+        
+        
+        form input.mainbuttons:hover{
+            color: rgb(0, 0, 0);
+            background: linear-gradient(#f0ecf0,#f700fffe);
+        }
+        
+        }
+        
+    
+        
+    @media (min-width:414px) {
+        .container{
+            width: 100%;
+            background: rebeccapurple;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .heading{
+            margin-bottom: 20px;
+            font-style: italic;
+            font-size: 1.5rem;
+            color: #fff;
+            font-weight: 800;
+            background: linear-gradient(#9c0c18,#de07de);
+            width: 155px;
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+            border-radius: 10px;
+            animation: 
+            typing 2s,
+            cursor .4s step-end infinite alternate;
+            box-shadow: 30px 25px 2px(rgba(30, 241, 19, 0.89));
+        }
+        
+        @keyframes cursor {
+            100%{border-color: transparent;}
+        }
+
+        @keyframes typing {
+            from{width: 0;}
+        }
+        .calculator{
+            display: flex;
+            width: 100%;
+            max-width: 270px;
+            justify-content: center;
+            align-items: center;
+            min-height: 500px;
+            background: rgba(6, 3, 5, 0.318);
+            padding: 10px;
+            border-radius: 20px;
+        }
+        
+        .calculator form input{
+            width: 45px;
+            height: 47px;
+            outline: 0;
+            padding: 7px;
+            margin: 5px 3px;
+            margin-left: 18px;
+            font-size: 18px;
+            font-weight: 500;
+            border: none;
+            border-radius: 9px;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            box-shadow: 1px 1px 10px rgba(246, 15, 138, 0.89),2px 2px 5px rgba(241, 2, 173, 0.89);    
+        }
+        
+        form .display{
+            display: flex;
+            justify-content: flex-end;
+            margin: 10px 0;
+        }
+        
+        form .display input{
+            text-align: right;
+            font-size: 40px;
+            box-shadow: none;
+            flex: 1;
+        }
+        
+        form input.equal{
+            width:260px;
+            margin: 20px 10px;
+            color: rgb(251, 247, 250);
+            background: linear-gradient(#de07de,#91072efe);
+        }
+        
+        form input.equal:hover{
+            width:260px;
+            color: rgb(0, 0, 0);
+            background: linear-gradient(#f0ecf0,#f700fffe);
+        }
+        
+        form input.mainbuttons{
+            color: rgb(251, 247, 250);
+            background: linear-gradient(#de07de,#91072efe);
+        }
+        
+        
+        form input.mainbuttons:hover{
+            color: rgb(0, 0, 0);
+            background: linear-gradient(#f0ecf0,#f700fffe);
+        }
+        }
+        
+    @media (min-width:810px) {
+        .container{
+            width: 100%;
+            background: rebeccapurple;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .heading{
+            margin-bottom: 20px;
+            font-style: italic;
+            font-size: 2.5rem;
+            color: #fff;
+            font-weight: 800;
+            background: linear-gradient(#9c0c18,#de07de);
+            width: 395px;
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+            border-radius: 10px;
+            animation: 
+            typing 2s,
+            cursor .4s step-end infinite alternate;
+            box-shadow: 30px 25px 2px(rgba(30, 241, 19, 0.89));
+        }
+        
+        @keyframes cursor {
+            100%{border-color: transparent;}
+        }
+
+        @keyframes typing {
+            from{width: 0;}
+        }
+        
+        .calculator{
+            display: flex;
+            width: 100%;
+            max-width: 550px;
+            justify-content: center;
+            align-items: center;
+            min-height: 500px;
+            background: rgba(6, 3, 5, 0.318);
+            padding: 10px;
+            border-radius: 20px;
+        }
+        
+        .calculator form input{
+            width: 100px;
+            height: 70px;
+            outline: 0;
+            padding: 7px;
+            margin: 5px 3px;
+            margin-left: 18px;
+            font-size: 18px;
+            font-weight: 500;
+            border: none;
+            border-radius: 9px;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            box-shadow: 1px 1px 10px rgba(246, 15, 138, 0.89),2px 2px 5px rgba(241, 2, 173, 0.89);    
+        }
+        
+        form .display{
+            display: flex;
+            justify-content: flex-end;
+            margin: 10px 0;
+        }
+        
+        form .display input{
+            text-align: right;
+            font-size: 40px;
+            box-shadow: none;
+            flex: 1;
+        }
+        
+        form input.equal{
+            width:260px;
+            margin: 20px 10px;
+            color: rgb(251, 247, 250);
+            background: linear-gradient(#de07de,#91072efe);
+        }
+        
+        form input.equal:hover{
+            width:260px;
+            color: rgb(0, 0, 0);
+            background: linear-gradient(#f0ecf0,#f700fffe);
+        }
+        
+        form input.mainbuttons{
+            color: rgb(251, 247, 250);
+            background: linear-gradient(#de07de,#91072efe);
+        }
+        
+        
+        form input.mainbuttons:hover{
+            color: rgb(0, 0, 0);
+            background: linear-gradient(#f0ecf0,#f700fffe);
+        }
+        }
+        
+        
+    @media (min-width:821px) {
+        .container{
+            width: 100%;
+            background: rebeccapurple;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .heading{
+            margin-bottom: 20px;
+            font-style: italic;
+            font-size: 2.5rem;
+            color: #fff;
+            font-weight: 800;
+            background: linear-gradient(#9c0c18,#de07de);
+            width: 395px;
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+            border-radius: 10px;
+            animation: 
+            typing 2s,
+            cursor .4s step-end infinite alternate;
+            box-shadow: 30px 25px 2px(rgba(30, 241, 19, 0.89));
+        }
+        
+        @keyframes cursor {
+            100%{border-color: transparent;}
+        }
+
+        @keyframes typing {
+            from{width: 0;}
+        }
+        
+        .calculator{
+            display: flex;
+            width: 100%;
+            max-width: 540px;
+            justify-content: center;
+            align-items: center;
+            min-height: 500px;
+            background: rgba(6, 3, 5, 0.318);
+            padding: 10px;
+            border-radius: 20px;
+        }
+        
+        .calculator form input{
+            width: 100px;
+            height: 80px;
+            outline: 0;
+            padding: 5px;
+            margin: 5px 6px;
+            margin-left: 18px;
+            font-size: 20px;
+            font-weight: 500;
+            border: none;
+            border-radius: 9px;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            box-shadow: 1px 1px 10px rgba(246, 15, 138, 0.89),2px 2px 5px rgba(241, 2, 173, 0.89);    
+        }
+        
+        form .display{
+            display: flex;
+            justify-content: flex-end;
+            margin: 10px 0;
+        }
+        
+        form .display input{
+            text-align: right;
+            font-size: 40px;
+            box-shadow: none;
+            flex: 1;
+        }
+        
+        form input.equal{
+            width:260px;
+            margin: 20px 10px;
+            color: rgb(251, 247, 250);
+            background: linear-gradient(#de07de,#91072efe);
+        }
+        
+        form input.equal:hover{
+            width:260px;
+            color: rgb(0, 0, 0);
+            background: linear-gradient(#f0ecf0,#f700fffe);
+        }
+        
+        form input.mainbuttons{
+            color: rgb(251, 247, 250);
+            background: linear-gradient(#de07de,#91072efe);
+        }
+        
+        
+        form input.mainbuttons:hover{
+            color: rgb(0, 0, 0);
+            background: linear-gradient(#f0ecf0,#f700fffe);
+        }
+        }
+    
+
+            
+    @media (min-width:1280px) {
+        .container{
+            width: 100%;
+            background: rebeccapurple;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .heading{
+            margin-bottom: 15px;
+            font-style: italic;
+            font-size: 2.4rem;
+            color: #fff;
+            font-weight: 800;
+            background: linear-gradient(#9c0c18,#de07de);
+            width: 395px;
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+            border-radius: 10px;
+            animation: 
+            typing 2s,
+            cursor .4s step-end infinite alternate;
+            box-shadow: 30px 25px 2px(rgba(30, 241, 19, 0.89));
+        }
+        
+        @keyframes cursor {
+            100%{border-color: transparent;}
+        }
+
+        @keyframes typing {
+            from{width: 0;}
+        }
+        
+        .calculator{
+            display: flex;
+            width: 100%;
+            max-width: 500px;
+            justify-content: center;
+            align-items: center;
+            min-height: 490px;
+            background: rgba(6, 3, 5, 0.318);
+            padding: 10px;
+            border-radius: 20px;
+        }
+        
+        .calculator form input{
+            width: 100px;
+            height: 60px;
+            outline: 0;
+            padding: 7px;
+            margin: 5px 3px;
+            margin-left: 18px;
+            font-size: 18px;
+            font-weight: 500;
+            border: none;
+            border-radius: 9px;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            box-shadow: 1px 1px 10px rgba(246, 15, 138, 0.89),2px 2px 5px rgba(241, 2, 173, 0.89);    
+        }
+        
+        form .display{
+            display: flex;
+            justify-content: flex-end;
+            margin: 10px 0;
+        }
+        
+        form .display input{
+            text-align: right;
+            font-size: 40px;
+            box-shadow: none;
+            flex: 1;
+        }
+        
+        form input.equal{
+            width:260px;
+            margin: 20px 10px;
+            color: rgb(251, 247, 250);
+            background: linear-gradient(#de07de,#91072efe);
+        }
+        
+        form input.equal:hover{
+            width:260px;
+            color: rgb(0, 0, 0);
+            background: linear-gradient(#f0ecf0,#f700fffe);
+        }
+        
+        form input.mainbuttons{
+            color: rgb(251, 247, 250);
+            background: linear-gradient(#de07de,#91072efe);
+        }
+        
+        
+        form input.mainbuttons:hover{
+            color: rgb(0, 0, 0);
+            background: linear-gradient(#f0ecf0,#f700fffe);
+        }
+        
+        }
+            
+    @media (min-width:1080px) {
+        .container{
+            width: 100%;
+            background: rebeccapurple;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .heading{
+            margin-bottom: 15px;
+            font-style: italic;
+            font-size: 2.4rem;
+            color: #fff;
+            font-weight: 800;
+            background: linear-gradient(#9c0c18,#de07de);
+            width: 395px;
+            padding: 20px;
+            white-space: nowrap;
+            text-align: center;
+            justify-content: center;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 30px 25px 2px(rgba(30, 241, 19, 0.89));
+            animation: 
+            typing 2s,
+            cursor .4s step-end infinite alternate;
+        }
+
+        @keyframes cursor {
+            100%{border-color: transparent;}
+        }
+
+        @keyframes typing {
+            from{width: 0;}
+        }
+        
+        .calculator{
+            display: flex;
+            width: 100%;
+            max-width: 500px;
+            justify-content: center;
+            align-items: center;
+            min-height: 490px;
+            background: rgba(6, 3, 5, 0.318);
+            padding: 10px;
+            border-radius: 20px;
+        }
+        
+        .calculator form input{
+            width: 100px;
+            height: 60px;
+            outline: 0;
+            padding: 7px;
+            margin: 5px 3px;
+            margin-left: 18px;
+            font-size: 18px;
+            font-weight: 500;
+            border: none;
+            border-radius: 9px;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            box-shadow: 1px 1px 10px rgba(246, 15, 138, 0.89),2px 2px 5px rgba(241, 2, 173, 0.89);    
+        }
+        
+        form .display{
+            display: flex;
+            justify-content: flex-end;
+            margin: 10px 0;
+        }
+        
+        form .display input{
+            text-align: right;
+            font-size: 40px;
+            box-shadow: none;
+            flex: 1;
+        }
+        
+        form input.equal{
+            width:260px;
+            margin: 20px 10px;
+            color: rgb(251, 247, 250);
+            background: linear-gradient(#de07de,#91072efe);
+        }
+        
+        form input.equal:hover{
+            width:260px;
+            color: rgb(0, 0, 0);
+            background: linear-gradient(#f0ecf0,#f700fffe);
+        }
+        
+        form input.mainbuttons{
+            color: rgb(251, 247, 250);
+            background: linear-gradient(#de07de,#91072efe);
+        }
+        
+        
+        form input.mainbuttons:hover{
+            color: rgb(0, 0, 0);
+            background: linear-gradient(#f0ecf0,#f700fffe);
+        }
+        }
+        
+        
